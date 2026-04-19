@@ -179,7 +179,7 @@ Resultado:
 ```text
 hola cluster
 ```
-![Prueba 1](Instalacion%20de%20Cluster/Prueba1.png)
+![Prueba 1](Prueba1.png)
 
 ---
 
@@ -301,8 +301,7 @@ Resultado obtenido:
 
 ## Captura de pantalla
 
-![Prueba 2](Instalacion%20de%20Cluster/Prueba2.png)
-
+![Prueba 2](Prueba2.png)
 ---
 
 # Problemas encontrados y solución

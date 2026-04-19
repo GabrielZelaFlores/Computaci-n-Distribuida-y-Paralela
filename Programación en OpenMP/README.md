@@ -19,8 +19,6 @@ Modificar el programa `pi_leibniz.c` para que el ciclo `for` sea ejecutado en pa
 
 El programa calcula una aproximación del número π utilizando la serie de Leibniz:
 
-genui{"math_block_widget_always_prefetch_v2":{"content":"\pi = 4\sum_{i=0}^{n-1} \frac{(-1)^i}{2i+1}"}}
-
 El código original distribuía manualmente las iteraciones entre los hilos. La modificación consistió en reemplazar esa lógica por un `for` paralelo utilizando OpenMP.
 
 ---
@@ -130,29 +128,15 @@ Tiempo de ejecución: 0.52 segundos
 Inserte aquí la captura de pantalla de la ejecución del programa.
 
 ```text
-
-![Ejecución](Ejecucion.png)
-
 ```
 
 Por ejemplo, con 100000000 iteraciones, el valor obtenido se aproxima bastante al valor real de π:
-
-genui{"math_block_widget_always_prefetch_v2":{"content":"\pi \approx 3.14159265"}}
----
-
-# Conclusiones
-
-* Se logró paralelizar correctamente el ciclo `for` utilizando OpenMP.
-* La directiva `#pragma omp parallel for` simplificó la distribución de trabajo entre los hilos.
-* La cláusula `reduction` permitió combinar correctamente los resultados parciales.
-* El programa obtuvo una aproximación precisa de π y redujo el tiempo de ejecución gracias al paralelismo.
-
-Además, el uso de OpenMP permite que el cálculo se realice más rápidamente al aprovechar varios hilos del procesador.
-
+![Ejecución](Ejecucion.png)
 
 ---
-Mientras mayor sea el número de iteraciones ingresado, la aproximación de π será más precisa.
 
 # Explicación del resultado
+Mientras mayor sea el número de iteraciones ingresado, la aproximación de π será más precisa.
+
 
 

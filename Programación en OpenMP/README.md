@@ -89,6 +89,8 @@ La directiva `parallel for` reparte automáticamente las iteraciones entre los h
 
 La cláusula `reduction(+:respuesta)` hace que cada hilo acumule su suma parcial y luego OpenMP combine todos los resultados al finalizar.
 
+![Prueba](pi_leibniz.c%20prueba.png)
+
 ---
 
 # Compilación
@@ -128,7 +130,9 @@ Tiempo de ejecución: 0.52 segundos
 Inserte aquí la captura de pantalla de la ejecución del programa.
 
 ```text
-[Insertar aquí la imagen de la terminal mostrando el resultado]
+
+![Ejecución](Ejecucion.png)
+
 ```
 
 Por ejemplo, con 100000000 iteraciones, el valor obtenido se aproxima bastante al valor real de π:

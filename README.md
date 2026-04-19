@@ -176,6 +176,7 @@ Resultado:
 ```text
 hola cluster
 ```
+![Prueba 1](Instalacion%20de%20Cluster/Prueba1.png)
 
 ---
 
@@ -297,9 +298,7 @@ Resultado obtenido:
 
 ## Captura de pantalla
 
-Inserte aquí la captura de pantalla de la ejecución anterior.
-
-> Recomendación: colocar una imagen mostrando la terminal del nodo master con la salida del comando `mpirun`.
+![Prueba 2](Instalacion%20de%20Cluster/Prueba2.png)
 
 ---
 

@@ -47,9 +47,9 @@ mpiexec -n 4 integral_mpi.exe 0 10 1000
 
  
 
-```
+
 ![Ejecución del programa](img/ejecucion.png)
-```
+
 
    
 

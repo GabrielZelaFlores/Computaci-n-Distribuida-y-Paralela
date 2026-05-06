@@ -31,8 +31,6 @@ Modificar el código original `avg.c` (MPI) para que funcione con **OpenMP**, ma
 - Tiempo Secuencial: **0.010743 segundos**
 - **Speedup: 2.79x**
 
-*(Puedes agregar aquí una captura de pantalla de la consola)*
-
 ![Resultados OpenMP](resultados_openmp.png)
 
 ---
@@ -77,10 +75,3 @@ Modificar el código original `avg.c` (MPI) para que funcione con **OpenMP**, ma
 
 En esta actividad, **OpenMP** demostró ser mucho más sencillo de implementar y más eficiente para una sola máquina, logrando un speedup de hasta **2.79x** con 12 hilos.
 - En aplicaciones reales de alto rendimiento se suele usar el modelo **híbrido MPI + OpenMP**.
-**Fin del documento.**
----
-
-
-- Usar **OpenMP** cuando se trabaja en una sola computadora potente.
-- Usar **MPI** cuando se necesita escalar en múltiples nodos (clúster).
-

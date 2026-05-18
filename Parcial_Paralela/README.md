@@ -1,9 +1,9 @@
 # PARCIAL – PROGRAMACIÓN PARALELA Y DISTRIBUIDA
 
 ## Alumno
-- Nombre: __________________________
+- Nombre: Zela Flores Gabriel Frank
 - Curso: Programación Paralela y Distribuida
-- Fecha: __________________________
+- Fecha: 18/05/2026
 
 ---
 
